@@ -12,15 +12,6 @@ else
 	echo "installed Adafruit_Python_ILI9341"
 fi
 sudo npm install -g forever
-npm install sqlite3
-npm install twilio
-npm install express
-npm install serve-favicon
-npm install basic-auth
-npm install python-shell
-npm install i2c
-npm install body-parser
-npm install crjens/bbqpi
 if [ -f /etc/init.d/node-server.sh ]; then
 	echo "node-server.sh already installed"
 	sudo unlink node-server.sh
@@ -39,5 +30,4 @@ else
 	sudo mv .bash_aliases ~
 	echo "installed .bash_aliases"
 fi
-
 echo "finshed" 
