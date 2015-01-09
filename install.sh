@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo rm -rf .git 
 sudo apt-get update
 sudo apt-get install -y build-essential python-dev python-smbus python-pip python-imaging python-numpy git
 sudo pip install RPi.GPIO
